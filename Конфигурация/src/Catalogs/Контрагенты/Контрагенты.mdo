@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="578277d4-a7f5-4ea0-8faa-5d166dcb936f">
+  <producedTypes>
+    <objectType typeId="30e43b0c-5ebc-462e-ab42-3b1fba10ca5b" valueTypeId="d804890a-e614-4588-a25d-86b2c7dae155"/>
+    <refType typeId="106dd5c4-a020-4e63-a89a-198fcdf1aadb" valueTypeId="1fe31358-a390-490d-a7d0-753ee2e078fe"/>
+    <selectionType typeId="10b3210f-c3fb-4f6f-9acd-572a715b5774" valueTypeId="1a1364a2-d044-4590-9298-26e9a6795485"/>
+    <listType typeId="e7ac4b01-ef3a-4b82-b0d2-3ba28a007d80" valueTypeId="6dd994e5-8d4c-401c-8fe1-cf782bbfe3be"/>
+    <managerType typeId="abd86c79-c6dc-4844-86c3-98c87f4291e6" valueTypeId="388740ea-df65-496a-a205-7b147f3e6b1b"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>ВЫБРАТЬ
+  СправочникКонтрагенты.Наименование КАК Наименование
+ИЗ
+  Справочник.Контрагенты КАК СправочникКонтрагенты</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>ВЫБРАТЬ
+  СправочникКонтрагенты.Наименование КАК Наименование
+ИЗ
+  Справочник.Контрагенты КАК СправочникКонтрагенты</value>
+  </extendedListPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <attributes uuid="35f92e29-c9c6-42e1-9ef9-d4668b38abd4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>
