@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740c1705-123b-4ac1-936d-553739b0187b">
+  <producedTypes>
+    <objectType typeId="5c8f774c-08b1-40e3-b2ea-746f9b8d83a1" valueTypeId="a884e3aa-05f8-4e88-8b85-f5db81e35ac1"/>
+    <refType typeId="70262106-a89d-4de1-9d11-7243ecfc329f" valueTypeId="bd9273bf-1048-4ced-b593-4913c5b8bdd7"/>
+    <selectionType typeId="b5011572-5197-40f4-a21a-f9c5542b33ca" valueTypeId="ca448dbc-05ee-4f46-902a-5ceef3bd4347"/>
+    <listType typeId="38f120c0-831a-4d89-a42c-96295503aaec" valueTypeId="98a4d26e-5878-474d-abee-6bbe516a5633"/>
+    <managerType typeId="6c462259-5d2a-4850-903b-9693d67c8633" valueTypeId="ad9fc788-583a-477a-8735-8e80360bd6ef"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Товар</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>ВЫБРАТЬ
+  СправочникТовары.Наименование КАК Наименование
+ИЗ
+  Справочник.Товары КАК СправочникТовары</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Товары</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>ВЫБРАТЬ
+  СправочникТовары.Наименование КАК Наименование
+ИЗ
+  Справочник.Товары КАК СправочникТовары</value>
+  </extendedListPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <attributes uuid="d59fcdbc-db8d-4416-b4ed-2bd574c38840">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>
